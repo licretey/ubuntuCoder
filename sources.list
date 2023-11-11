@@ -1,0 +1,8 @@
+## See sources.list(5) for more information, especialy
+# Remember that you can only use http, ftp or file URIs
+# CDROMs are managed through the apt-cdrom tool.
+deb https://mirror.nju.edu.cn/ubuntu/ jammy main restricted universe
+deb-src https://mirror.nju.edu.cn/ubuntu/ jammy main restricted universe #Added by software-properties
+deb http://security.ubuntu.com/ubuntu/ jammy-security universe restricted main
+deb https://mirror.nju.edu.cn/ubuntu/ jammy-updates universe restricted main
+
